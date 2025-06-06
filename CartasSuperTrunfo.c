@@ -8,7 +8,7 @@ int main() {
 
     // Cadastro das Cartas:
     // Solicitando ao usuário que insira as informações de cada cidade: população, área, pib e numero e pontos turisticos
-    printf("Digite a população da cidade A1: \n");
+    printf("Digite a populacao da cidade A1: \n");
     scanf("%d", &populacaoa1);
 
     printf("Digite a area da cidade A1(exemplo - 22.50): \n");
@@ -20,7 +20,7 @@ int main() {
     printf("Digite a quantidade de numeros turisticos da cidade A1: \n");
     scanf("%d", &turisticosa1);
 
-        printf("Digite a população da cidade A2: \n");
+        printf("Digite a populacao da cidade A2: \n");
     scanf("%d", &populacaoa2);
 
     printf("Digite a area da cidade A2(exemplo - 22.50): \n");
@@ -35,8 +35,8 @@ int main() {
     // Exibição dos Dados das Cartas:
     // Exibindo os valores inseridos para cada atributo da cidade, um por linha, pula 2 linhas pra o outro cartão.
 
-    printf("Cartão da Cidade A1 \n População: %d \n Area: %.2f \n Pib: %.2f \n Numero de pontos Turisticos: %d \n\n", populacaoa1,areaa1,piba1,turisticosa1);
-    printf("Cartão da Cidade A2 \n População: %d \n Area: %.2f \n Pib: %.2f \n Numero de pontos Turisticos: %d \n\n", populacaoa2,areaa2,piba2,turisticosa2);
+    printf("Cartão da Cidade A1 \n Populacao: %d \n Area: %.2f \n Pib: %.2f \n Numero de pontos Turisticos: %d \n\n", populacaoa1,areaa1,piba1,turisticosa1);
+    printf("Cartão da Cidade A2 \n Populacao: %d \n Area: %.2f \n Pib: %.2f \n Numero de pontos Turisticos: %d \n\n", populacaoa2,areaa2,piba2,turisticosa2);
 
     return 0;
 }
